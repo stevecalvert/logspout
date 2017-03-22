@@ -1,4 +1,5 @@
-FROM alpine:3.5
+#FROM alpine:3.5
+FROM armhf/alpine:3.5
 ENTRYPOINT ["/bin/logspout"]
 VOLUME /mnt/routes
 EXPOSE 80
